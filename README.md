@@ -15,6 +15,3 @@ Key Stages of the Algorithm:
   - Round Function: Each round involves expanding the 32-bit half-block to 48 bits using the expansion permutation (EP), applying the XOR function with the round key, and then compressing it back to 32 bits using the S-boxes followed by a P-box permutation.
   - Final Permutation: After 16 rounds, a final permutation is performed on the combined output using the Final Permutation (FP) table, reversing the initial permutation to produce the final encrypted data.
 
-# Overview of 3DES(bonus points)
-
-Triple DES (3DES) is an enhancement of the original Data Encryption Standard (DES) that was developed to provide a stronger encryption method as DES became vulnerable to brute-force attacks due to its shorter key length. 3DES utilizes the DES cipher algorithm three times, using either two or three unique keys for additional security. This method of encryption is significantly more secure than its predecessor because it increases the effective key length to 112 or 168 bits, thereby greatly enhancing its resistance to brute-force attacks. By employing the DES algorithm multiple times, 3DES ensures a much deeper level of encryption, making it a reliable choice for industries requiring a higher degree of security without moving away from the established DES infrastructure.
